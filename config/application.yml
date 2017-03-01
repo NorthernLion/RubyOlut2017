@@ -1,0 +1,11 @@
+defaults: &defaults
+  APIKEY: 611951d83d8ea232f0b566c857ef0190
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

@@ -1,0 +1,18 @@
+<table class="table">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Average</th>
+    <th colspan="2"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% rated.each do |rated| %>
+      <tr>
+        <td><%= link_to rated.name, rated %></td>
+        <td><%= rated.average_rating %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
